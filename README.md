@@ -1,4 +1,4 @@
-# MagneticMemories - Premium Photo Magnets Website
+# Magnetic Memories - Premium Photo Magnets Website
 
 A beautiful, modern premium website for photo magnets featuring high-quality articles, product showcase, and e-commerce functionality.
 
