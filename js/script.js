@@ -38,22 +38,26 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-// Add to Cart Functionality
+// Product link placeholder button fallback
 document.querySelectorAll('.add-to-cart').forEach(button => {
     button.addEventListener('click', function(e) {
+        if (this.href && this.href !== window.location.href && !this.href.endsWith('#')) {
+            return;
+        }
+
         e.preventDefault();
         const productName = this.closest('.shop-product').querySelector('h3').textContent;
         const price = this.closest('.product-footer').querySelector('.price').textContent;
         
         // Show notification
-        showNotification(`Added to cart: ${productName} - ${price}`);
+        showNotification(`Product link coming soon: ${productName} - ${price}`);
         
         // Add animation
-        this.textContent = '✓ Added to Cart';
+        this.textContent = '✓ Selected';
         this.style.backgroundColor = '#7ED321';
         
         setTimeout(() => {
-            this.textContent = 'Add to Cart';
+            this.textContent = 'Link Coming Soon';
             this.style.backgroundColor = '';
         }, 2000);
     });
@@ -171,7 +175,7 @@ function showNotification(message, type = 'info') {
         top: 20px;
         right: 20px;
         padding: 1rem 1.5rem;
-        background-color: ${type === 'success' ? '#7ED321' : type === 'error' ? '#E74C3C' : '#4ECDC4'};
+        background-color: ${type === 'success' ? '#44A08D' : type === 'error' ? '#E74C3C' : '#A77A3E'};
         color: white;
         border-radius: 8px;
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
@@ -253,7 +257,7 @@ function createScrollToTopButton() {
         width: 50px;
         height: 50px;
         border-radius: 50%;
-        background-color: #FF6B9D;
+        background-color: #A77A3E;
         color: white;
         border: none;
         cursor: pointer;
@@ -265,12 +269,12 @@ function createScrollToTopButton() {
     `;
     
     button.addEventListener('mouseenter', function() {
-        this.style.backgroundColor = '#4ECDC4';
+        this.style.backgroundColor = '#765126';
         this.style.transform = 'scale(1.1)';
     });
     
     button.addEventListener('mouseleave', function() {
-        this.style.backgroundColor = '#FF6B9D';
+        this.style.backgroundColor = '#A77A3E';
         this.style.transform = 'scale(1)';
     });
     
