@@ -1,0 +1,19 @@
+{
+  "name": "Magnetic Memories",
+  "short_name": "Magnets",
+  "icons": [
+    {
+      "src": "images/favicons/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "images/favicons/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#A77A3E",
+  "background_color": "#FAF7F0",
+  "display": "standalone"
+}
