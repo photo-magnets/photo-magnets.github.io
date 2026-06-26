@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://photo-magnets.github.io/sitemap.xml

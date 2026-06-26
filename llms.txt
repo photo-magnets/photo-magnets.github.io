@@ -1,0 +1,36 @@
+# Magnetic Memories
+
+> Magnetic Memories is a focused buyer and design guide for photo magnets, custom photo magnets, fridge magnets, and memory magnets. The site provides human-written articles, product discovery pages, product link notices, and support pages for shoppers comparing personalized magnetic photo gifts.
+
+## Core Keyword Guides
+
+- [photo magnets](https://photo-magnets.github.io/photo-magnets.html): Complete guide to photo magnets, materials, finishes, sizes, display ideas, and gift use cases.
+- [custom photo magnets](https://photo-magnets.github.io/custom-photo-magnets.html): Guide to designing custom photo magnets with personal photos, captions, layouts, dates, and gift messages.
+- [fridge magnets](https://photo-magnets.github.io/fridge-magnets.html): Guide to fridge magnets for kitchen decor, organization, magnetic strength, backing materials, and appliance display.
+- [memory magnets](https://photo-magnets.github.io/memory-magnets.html): Guide to memory magnets for family milestones, wedding moments, baby photos, travel keepsakes, and visual storytelling.
+
+## Shopping and Commercial Pages
+
+- [Shop](https://photo-magnets.github.io/shop.html): Shop page with placeholder product buttons for photo magnet, custom photo magnet, fridge magnet, and memory magnet ideas.
+- [Shipping Info](https://photo-magnets.github.io/shipping-info.html): Shipping and production guidance for magnetic photo gifts.
+- [Returns](https://photo-magnets.github.io/returns.html): Return guidance for personalized and non-personalized magnet products.
+
+## Company and Trust Pages
+
+- [About Magnetic Memories](https://photo-magnets.github.io/about.html): Editorial focus and site purpose.
+- [Contact Us](https://photo-magnets.github.io/contact.html): Contact information for reader questions.
+- [FAQ](https://photo-magnets.github.io/faq.html): Common questions about photo magnets, custom photo magnets, fridge magnets, and memory magnets.
+- [Privacy Policy](https://photo-magnets.github.io/privacy-policy.html): Privacy and privacy notice.
+- [Terms of Service](https://photo-magnets.github.io/terms-of-service.html): Website use and shop placeholder terms.
+
+## Discovery Files
+
+- [Sitemap](https://photo-magnets.github.io/sitemap.xml)
+- [Robots](https://photo-magnets.github.io/robots.txt)
+
+## Entity Summary
+
+- Site name: Magnetic Memories
+- Primary topics: photo magnets, custom photo magnets, fridge magnets, memory magnets
+- Content type: informational guides, buying guidance, product discovery, customer support pages
+- Audience: shoppers looking for personalized photo gifts, kitchen decor, memory displays, and magnetic photo keepsakes

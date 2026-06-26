@@ -3,11 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Premium photo magnets and custom fridge magnets. Create personalized magnetic memories with our high-quality photo magnet collection.">
-    <meta name="keywords" content="photo magnets, custom photo magnets, fridge magnets, personalized magnets">
-    <title>Premium Photo Magnets - Custom Magnetic Memories</title>
+    <meta name="description" content="Shop premium photo magnets, custom photo magnets, and fridge magnets. Keep your memories alive with high quality photographic memory magnets.">
+    <title>Premium Photo Magnets &amp; Custom Magnetic Memories</title>
+    <meta property="og:title" content="Premium Photo Magnets &amp; Custom Magnetic Memories">
+    <meta property="og:description" content="Shop premium photo magnets, custom photo magnets, and fridge magnets. Keep your memories alive with high quality photographic memory magnets.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://photo-magnets.github.io/">
+    <meta property="og:image" content="https://photo-magnets.github.io/images/hero.svg">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="icon" href="images/logo.svg" type="image/svg+xml">
     <link rel="stylesheet" href="css/style.css">
     <link rel="canonical" href="https://photo-magnets.github.io/">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Magnetic Memories",
+      "url": "https://photo-magnets.github.io/",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://photo-magnets.github.io/shop.html?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Magnetic Memories",
+      "url": "https://photo-magnets.github.io/",
+      "logo": "https://photo-magnets.github.io/images/logo.svg",
+      "image": "https://photo-magnets.github.io/images/hero.svg"
+    }
+    </script>
 </head>
 <body>
     <!-- Header & Navigation -->
@@ -16,18 +45,19 @@
             <div class="container">
                 <div class="logo">
                     <svg width="40" height="40" viewBox="0 0 40 40" class="logo-icon">
-                        <rect x="2" y="2" width="36" height="36" rx="4" fill="#FF6B9D"/>
+                        <rect x="2" y="2" width="36" height="36" rx="4" fill="#B7935B"/>
                         <circle cx="12" cy="12" r="5" fill="white"/>
                         <circle cx="28" cy="12" r="5" fill="white"/>
                         <path d="M 12 25 Q 20 32 28 25" stroke="white" stroke-width="2" fill="none" stroke-linecap="round"/>
                     </svg>
-                    <span>Photo Magnets - Magnetic Memories</span>
+                    <span>Magnetic Memories</span>
                 </div>
                 <ul class="nav-menu">
                     <li><a href="index.html" class="active">Home</a></li>
-                    <li><a href="photo-magnets.html">Photo Magnets</a></li>
-                    <li><a href="custom-photo-magnets.html">Custom</a></li>
-                    <li><a href="fridge-magnets.html">Fridge Magnets</a></li>
+                    <li><a href="photo-magnets.html">photo magnets</a></li>
+                    <li><a href="custom-photo-magnets.html">custom photo magnets</a></li>
+                    <li><a href="fridge-magnets.html">fridge magnets</a></li>
+                    <li><a href="memory-magnets.html">memory magnets</a></li>
                     <li><a href="shop.html">Shop</a></li>
                 </ul>
                 <button class="hamburger">
@@ -41,23 +71,57 @@
 
     <!-- Hero Section -->
     <section class="hero">
-        <div class="hero-content">
-            <h1>Transform Your Memories into Magnetic Magic</h1>
-            <p>Premium photo magnets that turn your favorite moments into beautiful, lasting decorations for any metallic surface.</p>
-            <button class="cta-button">Explore Our Collection</button>
-            <svg class="hero-decoration" viewBox="0 0 200 200" width="200" height="200">
-                <defs>
-                    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
-                        <stop offset="0%" style="stop-color:#FF6B9D;stop-opacity:0.1" />
-                        <stop offset="100%" style="stop-color:#4ECDC4;stop-opacity:0.1" />
-                    </linearGradient>
-                </defs>
-                <circle cx="100" cy="100" r="80" fill="url(#grad1)"/>
-                <rect x="60" y="60" width="80" height="80" rx="8" fill="none" stroke="#FF6B9D" stroke-width="2" opacity="0.5"/>
-                <circle cx="85" cy="85" r="8" fill="#FF6B9D" opacity="0.3"/>
-                <circle cx="115" cy="85" r="8" fill="#4ECDC4" opacity="0.3"/>
-                <circle cx="100" cy="120" r="12" fill="#FF6B9D" opacity="0.2"/>
-            </svg>
+        <div class="container hero-studio">
+            <div class="hero-rail" aria-hidden="true">
+                <span>photo</span>
+                <span>custom</span>
+                <span>fridge</span>
+                <span>memory</span>
+            </div>
+            <div class="hero-copy hero-copy--studio">
+                <p class="eyebrow">Magnetic photo display studio</p>
+                <h1>A sharper way to turn photos into magnets</h1>
+                <p class="hero-lede">A focused guide for choosing polished magnetic photo gifts, kitchen displays, custom layouts, and memory sets built around real homes instead of generic product grids.</p>
+                <div class="hero-actions">
+                    <a href="shop.html" class="cta-button cta-button--gold">Browse shop ideas</a>
+                    <a href="photo-magnets.html" class="text-link">Start with the buying guide</a>
+                </div>
+                <div class="hero-keywords" aria-label="Photo magnet shopping priorities">
+                    <span>print quality</span>
+                    <span>gift-ready ideas</span>
+                    <span>kitchen display tips</span>
+                    <span>layout inspiration</span>
+                </div>
+            </div>
+            <div class="hero-board" aria-label="Photo magnet guide preview board">
+                <div class="board-frame">
+                    <div class="board-line board-line--one"></div>
+                    <div class="board-line board-line--two"></div>
+                    <a href="photo-magnets.html" class="studio-card studio-card--photo">
+                        <span class="studio-pin"></span>
+                        <img src="images/photo-magnets.svg" alt="photo magnets preview" width="900" height="600" fetchpriority="high">
+                        <strong>Print quality</strong>
+                    </a>
+                    <a href="custom-photo-magnets.html" class="studio-card studio-card--custom">
+                        <span class="studio-pin"></span>
+                        <img src="images/custom-photo-magnets.svg" alt="custom photo magnets preview" width="900" height="600">
+                        <strong>Custom layouts</strong>
+                    </a>
+                    <a href="fridge-magnets.html" class="studio-card studio-card--fridge">
+                        <span class="studio-pin"></span>
+                        <img src="images/fridge-magnets.svg" alt="fridge magnets preview" width="900" height="600">
+                        <strong>Kitchen display</strong>
+                    </a>
+                    <a href="memory-magnets.html" class="studio-note">
+                        <span>Curated for:</span>
+                        <strong>Memory sets</strong>
+                    </a>
+                    <div class="studio-spec">
+                        <span>Guides</span>
+                        <strong>4</strong>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -69,9 +133,9 @@
                 <div class="feature-card">
                     <div class="feature-icon">
                         <svg width="48" height="48" viewBox="0 0 48 48">
-                            <rect x="6" y="6" width="36" height="36" rx="4" fill="none" stroke="#FF6B9D" stroke-width="2"/>
-                            <circle cx="18" cy="18" r="4" fill="#FF6B9D"/>
-                            <path d="M 6 30 L 18 18 L 28 28 L 42 14" stroke="#FF6B9D" stroke-width="2" fill="none" stroke-linecap="round"/>
+                            <rect x="6" y="6" width="36" height="36" rx="4" fill="none" stroke="#A77A3E" stroke-width="2"/>
+                            <circle cx="18" cy="18" r="4" fill="#A77A3E"/>
+                            <path d="M 6 30 L 18 18 L 28 28 L 42 14" stroke="#A77A3E" stroke-width="2" fill="none" stroke-linecap="round"/>
                         </svg>
                     </div>
                     <h3>Premium Quality</h3>
@@ -80,7 +144,7 @@
                 <div class="feature-card">
                     <div class="feature-icon">
                         <svg width="48" height="48" viewBox="0 0 48 48">
-                            <path d="M 24 6 L 30 18 L 42 18 L 33 24 L 36 36 L 24 30 L 12 36 L 15 24 L 6 18 L 18 18 Z" stroke="#FF6B9D" stroke-width="2" fill="none"/>
+                            <path d="M 24 6 L 30 18 L 42 18 L 33 24 L 36 36 L 24 30 L 12 36 L 15 24 L 6 18 L 18 18 Z" stroke="#A77A3E" stroke-width="2" fill="none"/>
                         </svg>
                     </div>
                     <h3>Fully Customizable</h3>
@@ -89,8 +153,8 @@
                 <div class="feature-card">
                     <div class="feature-icon">
                         <svg width="48" height="48" viewBox="0 0 48 48">
-                            <circle cx="24" cy="24" r="18" fill="none" stroke="#FF6B9D" stroke-width="2"/>
-                            <path d="M 24 24 L 24 12 M 24 24 L 32 24" stroke="#FF6B9D" stroke-width="2" stroke-linecap="round"/>
+                            <circle cx="24" cy="24" r="18" fill="none" stroke="#A77A3E" stroke-width="2"/>
+                            <path d="M 24 24 L 24 12 M 24 24 L 32 24" stroke="#A77A3E" stroke-width="2" stroke-linecap="round"/>
                         </svg>
                     </div>
                     <h3>Fast Delivery</h3>
@@ -99,11 +163,11 @@
                 <div class="feature-card">
                     <div class="feature-icon">
                         <svg width="48" height="48" viewBox="0 0 48 48">
-                            <path d="M 12 30 Q 12 36 18 36 L 30 36 Q 36 36 36 30" stroke="#FF6B9D" stroke-width="2" fill="none" stroke-linecap="round"/>
-                            <line x1="12" y1="30" x2="36" y2="30" stroke="#FF6B9D" stroke-width="2"/>
-                            <rect x="14" y="18" width="20" height="12" rx="2" fill="none" stroke="#FF6B9D" stroke-width="2"/>
-                            <line x1="20" y1="12" x2="20" y2="18" stroke="#FF6B9D" stroke-width="2"/>
-                            <line x1="28" y1="12" x2="28" y2="18" stroke="#FF6B9D" stroke-width="2"/>
+                            <path d="M 12 30 Q 12 36 18 36 L 30 36 Q 36 36 36 30" stroke="#A77A3E" stroke-width="2" fill="none" stroke-linecap="round"/>
+                            <line x1="12" y1="30" x2="36" y2="30" stroke="#A77A3E" stroke-width="2"/>
+                            <rect x="14" y="18" width="20" height="12" rx="2" fill="none" stroke="#A77A3E" stroke-width="2"/>
+                            <line x1="20" y1="12" x2="20" y2="18" stroke="#A77A3E" stroke-width="2"/>
+                            <line x1="28" y1="12" x2="28" y2="18" stroke="#A77A3E" stroke-width="2"/>
                         </svg>
                     </div>
                     <h3>Eco-Friendly</h3>
@@ -119,28 +183,40 @@
             <h2>Popular Photo Magnet Collections</h2>
             <div class="products-grid">
                 <div class="product-card">
-                    <div class="product-image" style="background: linear-gradient(135deg, #FF6B9D, #FF8787);">
+                    <div class="product-image">
+                        <img src="images/photo-magnets.svg" alt="Premium photo magnets collection" width="900" height="600" loading="lazy">
                         <span class="product-label">Standard</span>
                     </div>
-                    <h3><a href="photo-magnets.html">Photo Magnets</a></h3>
+                    <h3><a href="photo-magnets.html">photo magnets</a></h3>
                     <p>Our classic collection of photo magnets in various sizes and finishes.</p>
-                    <a href="photo-magnets.html" class="learn-more">Learn More →</a>
+                    <a href="photo-magnets.html" class="learn-more">Explore photo magnets</a>
                 </div>
                 <div class="product-card">
-                    <div class="product-image" style="background: linear-gradient(135deg, #4ECDC4, #44A08D);">
+                    <div class="product-image">
+                        <img src="images/custom-photo-magnets.svg" alt="Custom photo magnets design preview" width="900" height="600" loading="lazy">
                         <span class="product-label">Custom</span>
                     </div>
-                    <h3><a href="custom-photo-magnets.html">Custom Photo Magnets</a></h3>
+                    <h3><a href="custom-photo-magnets.html">custom photo magnets</a></h3>
                     <p>Design your own personalized magnets with our easy-to-use customization tool.</p>
-                    <a href="custom-photo-magnets.html" class="learn-more">Learn More →</a>
+                    <a href="custom-photo-magnets.html" class="learn-more">Explore custom photo magnets</a>
                 </div>
                 <div class="product-card">
-                    <div class="product-image" style="background: linear-gradient(135deg, #95E1D3, #38ADA9);">
+                    <div class="product-image">
+                        <img src="images/fridge-magnets.svg" alt="Fridge magnets on a modern refrigerator" width="900" height="600" loading="lazy">
                         <span class="product-label">Fridge</span>
                     </div>
-                    <h3><a href="fridge-magnets.html">Fridge Magnets</a></h3>
+                    <h3><a href="fridge-magnets.html">fridge magnets</a></h3>
                     <p>Premium fridge magnets that combine style with functionality for your kitchen.</p>
-                    <a href="fridge-magnets.html" class="learn-more">Learn More →</a>
+                    <a href="fridge-magnets.html" class="learn-more">Explore fridge magnets</a>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/memory-magnets.svg" alt="Memory magnets arranged as a family timeline" width="900" height="600" loading="lazy">
+                        <span class="product-label">Memories</span>
+                    </div>
+                    <h3><a href="memory-magnets.html">memory magnets</a></h3>
+                    <p>Preserve precious milestones and family moments with high-quality memory magnets.</p>
+                    <a href="memory-magnets.html" class="learn-more">Explore memory magnets</a>
                 </div>
             </div>
         </div>
@@ -153,15 +229,15 @@
             <div class="testimonials-grid">
                 <div class="testimonial">
                     <p class="testimonial-text">"The quality is absolutely stunning! My custom photo magnets arrived beautifully packaged and look incredible on my fridge."</p>
-                    <p class="testimonial-author">— Sarah M.</p>
+                    <p class="testimonial-author">- Sarah M.</p>
                 </div>
                 <div class="testimonial">
                     <p class="testimonial-text">"Perfect gift for my mom. She loved the personalized photo magnets. The colors are vibrant and they stick strongly to our refrigerator."</p>
-                    <p class="testimonial-author">— James K.</p>
+                    <p class="testimonial-author">- James K.</p>
                 </div>
                 <div class="testimonial">
                     <p class="testimonial-text">"The ordering process was so easy, and the delivery was faster than expected. Highly recommend for anyone wanting quality photo magnets."</p>
-                    <p class="testimonial-author">— Emily R.</p>
+                    <p class="testimonial-author">- Emily R.</p>
                 </div>
             </div>
         </div>
@@ -183,28 +259,29 @@
                 <div class="footer-section">
                     <h4>Quick Links</h4>
                     <ul>
-                        <li><a href="photo-magnets.html">Photo Magnets</a></li>
-                        <li><a href="custom-photo-magnets.html">Custom Magnets</a></li>
-                        <li><a href="fridge-magnets.html">Fridge Magnets</a></li>
+                        <li><a href="photo-magnets.html">photo magnets</a></li>
+                        <li><a href="custom-photo-magnets.html">custom photo magnets</a></li>
+                        <li><a href="fridge-magnets.html">fridge magnets</a></li>
+                        <li><a href="memory-magnets.html">memory magnets</a></li>
                         <li><a href="shop.html">Shop</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
                     <h4>Customer Service</h4>
                     <ul>
-                        <li><a href="#contact">Contact Us</a></li>
-                        <li><a href="#faq">FAQ</a></li>
-                        <li><a href="#shipping">Shipping Info</a></li>
-                        <li><a href="#returns">Returns</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="shipping-info.html">Shipping Info</a></li>
+                        <li><a href="returns.html">Returns</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
                     <h4>Company</h4>
                     <ul>
-                        <li><a href="#about">About Us</a></li>
-                        <li><a href="#blog">Blog</a></li>
-                        <li><a href="#privacy">Privacy Policy</a></li>
-                        <li><a href="#terms">Terms of Service</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="terms-of-service.html">Terms of Service</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
@@ -217,7 +294,7 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2024 MagneticMemories. All rights reserved.</p>
+                <p>&copy; 2026 Magnetic Memories. All rights reserved.</p>
                 <div class="social-links">
                     <a href="#facebook">Facebook</a>
                     <a href="#instagram">Instagram</a>
