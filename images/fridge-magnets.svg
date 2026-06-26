@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" role="img" aria-labelledby="title desc">
+  <title id="title">Premium fridge magnets for kitchen decor</title>
+  <desc id="desc">A stainless steel refrigerator with organized notes, decorative magnets, and family photos.</desc>
+  <defs>
+    <linearGradient id="steel" x1="0" x2="1">
+      <stop offset="0" stop-color="#c8d0d5"/>
+      <stop offset=".5" stop-color="#f6f8f9"/>
+      <stop offset="1" stop-color="#aab4bb"/>
+    </linearGradient>
+    <filter id="drop" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#1a1a1d" flood-opacity=".22"/>
+    </filter>
+  </defs>
+  <rect width="900" height="600" fill="#f5efe3"/>
+  <rect x="250" y="55" width="400" height="500" rx="34" fill="url(#steel)" filter="url(#drop)"/>
+  <line x1="450" y1="70" x2="450" y2="545" stroke="#a2adb4" stroke-width="6"/>
+  <rect x="468" y="105" width="18" height="125" rx="9" fill="#8f9aa1"/>
+  <g transform="rotate(-5 350 185)">
+    <rect x="290" y="135" width="120" height="92" rx="14" fill="#fff"/>
+    <rect x="306" y="152" width="88" height="52" rx="8" fill="#f4c7b6"/>
+    <circle cx="405" cy="145" r="12" fill="#b7935b"/>
+  </g>
+  <g transform="rotate(4 540 230)">
+    <rect x="500" y="165" width="120" height="120" rx="15" fill="#fff8ea"/>
+    <path d="M525 208h70M525 237h54M525 266h42" stroke="#2f3640" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="610" cy="175" r="12" fill="#b7935b"/>
+  </g>
+  <g transform="rotate(5 345 390)">
+    <rect x="285" y="320" width="140" height="105" rx="15" fill="#fff"/>
+    <rect x="303" y="338" width="104" height="62" rx="8" fill="#8fb4d8"/>
+    <path d="M303 400l36-34 24 20 24-30 20 44z" fill="#416d52"/>
+    <circle cx="418" cy="330" r="13" fill="#b7935b"/>
+  </g>
+  <circle cx="552" cy="380" r="36" fill="#b7935b"/>
+  <text x="552" y="389" text-anchor="middle" font-family="Georgia, serif" font-size="32" fill="#fff">M</text>
+  <text x="450" y="585" text-anchor="middle" font-family="Georgia, serif" font-size="38" fill="#2f3640">Fridge Magnets for a Personal Kitchen</text>
+</svg>
